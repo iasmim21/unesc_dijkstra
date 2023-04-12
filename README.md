@@ -18,3 +18,46 @@ WeightedPseudograph é uma classe da biblioteca de grafos JGraphT, que é uma im
 
 ### DijkstraShortestPath
 DijkstraShortestPath é uma classe da biblioteca de grafos JGraphT, que é uma implementação Java de estruturas de dados e algoritmos para grafos. A classe DijkstraShortestPath é usada para encontrar o caminho mais curto entre dois vértices em um grafo ponderado, utilizando o algoritmo de Dijkstra.
+
+----
+
+## Pré-requisitos
+
+Antes de executar este projeto, você deve ter as seguintes ferramentas instaladas em seu computador:
+
+- JDK 17 ou superior
+- Maven 3.6 ou superior
+
+-----
+
+## Executando o projeto
+
+Para executar o projeto, siga estas etapas:
+
+1. Clone este repositório em sua máquina:
+
+```bash
+bashCopy code
+git clone https://github.com/iasmim21/unesc_dijkstra.git
+```
+
+2. Navegue até o diretório raiz do projeto:
+
+```bash
+bashCopy code
+cd unesc_dijkstra
+```
+
+3. Compile o projeto usando o Maven:
+
+```bash
+Copy code
+mvn clean install
+```
+
+4. Execute o projeto usando o Maven:
+
+```bash
+bashCopy code
+mvn exec:java -Dexec.mainClass=dijkstra.Main
+```
